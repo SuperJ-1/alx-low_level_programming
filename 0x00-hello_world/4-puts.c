@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- *Main- is where the code begins
+ * main- is where the code begins
  *
- *Return: return 0
+ * Description - puts to screen with puts command
+ *
+ * Return: return 0
  */
 int main(void)
 {
