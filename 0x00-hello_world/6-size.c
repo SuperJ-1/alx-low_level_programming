@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * function_name - print sizeof file types
- * main: starting point
+ * main - Entry point
+ *
+ * Description: prints sizeof various file types
  *
  * Return: return 0
  */
