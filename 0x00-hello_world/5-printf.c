@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- *Main - starting block
+ * main - Entry point
  *
- * Returns: returns 0
+ * Description: prints to screen with printf command
+ *
+ * Return: returns 0
  */
 int main(void)
 {
