@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- *Main sets the start up for this code
+ * main - entry point
  *
- *Return is where this code ends
+ * Description: writes program with std error
+ *
+ * Return: return 1 on success
  */
 int main(void)
 {
