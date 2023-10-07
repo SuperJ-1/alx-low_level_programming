@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char sdinb10 = 0;
+	int sdinb10 = 0;
 
 	while (sdinb10 <= 10)
 		;
