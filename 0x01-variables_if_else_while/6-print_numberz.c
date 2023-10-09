@@ -8,14 +8,10 @@
  */
 int main(void)
 {
-	int sdinb10 = 0;
+	int sdinb10;
 
-	while (sdinb10 <= 10)
-		;
-	{
-		putchar(sdinb10);
-		sdinb10++;
-	}
+	for (sdinb10 = 0; sdinb10 < 10; sdinb10++)
+	putchar((sdinb10 % 10) + '0');
 	putchar('\n');
 	return (0);
 }
