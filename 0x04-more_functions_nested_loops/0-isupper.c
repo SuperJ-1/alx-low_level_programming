@@ -1,12 +1,9 @@
 #include "main.h"
 /**
- *_isuper - Entry point, expressed in main.h
+ * _isupper - Checks for uppercase characters.
+ * @c: The character to be checked.
  *
- * @c: character to check
- *
- * Description: checks for uppercase character
- *
- * Return: returns 0 or 1 if positive
+ * Return: 1 if character is uppercase, 0 otherwise.
  */
 int _isupper(int c)
 {
