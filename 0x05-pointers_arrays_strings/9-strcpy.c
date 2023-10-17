@@ -3,27 +3,19 @@
  * _strcpy - start point
  * @dest: where to copy the string
  * @src: source of the string to copy
- * @n: bytes to copy
  * Desc: copies a string to a pointed destination
  *
  * Return: pointe to the dest string
  */
-char *_strcpy(char *dest, char *src, int n)
+char *_strcpy(char *dest, char *src)
 {
-	int i;
+	int index = 0;
+	const char *srcmc = src;
 
-	i = 0;
-
-	while (src[i] != '\0' && i < n)
+	while (srcmc[index])
 	{
-		dest[i] = src[i];
-		i++;
-	}
-
-	while (i < n)
-	{
-		dest[i] = '\0';
-		i++;
+		dest[index] = srcmc[index];
+		index++;
 	}
 
 	return (dest);
