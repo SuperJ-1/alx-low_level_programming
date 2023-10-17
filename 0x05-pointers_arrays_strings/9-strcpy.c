@@ -8,7 +8,7 @@
  *
  * Return: pointe to the dest string
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int index = 0;
 
