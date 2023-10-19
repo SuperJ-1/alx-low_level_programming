@@ -8,21 +8,24 @@
  */
 int main(void)
 {
-	int num;
-	unsigned long fibn1 = 0, fibn = 1, sum;
+	long int i, num1, num2, next;
 
-	for (num = 0; num < 50; count++)
+	num1 = 1;
+
+	num2 = 2;
+
+	for (i = 1; i <= 50; ++i)
 	{
-		sum = fibn1 + fibn2;
-		printf("%lu", sum);
-
-		fibn1 = fibn2;
-		fibn2 = sum;
-
-		if (num == 49)
-			printf("\n");
-		else
-			printf(", ");
+		if (num1 != 20365011074)
+		{
+			printf("%ld, ", num1);
+		} else
+		{
+			printf("%ld\n", num1);
+		}
+		next = num1 + num2;
+		num1 = num2;
+		num2 = next;
 	}
 
 	return (0);
