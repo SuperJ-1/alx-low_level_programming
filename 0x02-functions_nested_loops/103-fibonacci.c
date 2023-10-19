@@ -8,21 +8,25 @@
  */
 int main(void)
 {
-	unsigned long fibn1 = 0, fibn2 = 2, fisum;
-	float totalsum;
+	int i;
+	unsigned long int num1, num2, next, sum;
 
-	while (1)
+	num1 = 1;
+	num2 = 2;
+	sum = 0;
+
+	for (i = 1; i <= 33; ++i)
 	{
-		fisum = fibn1 + fibn2;
-		if (fisum > 4000000)
-			break;
-		if ((fisum % 2) == 0)
-		totalsum + 1 fisum;
-
-		fibn1 = fibn2;
-		fibn2 = fisum;
+		if (num1 < 4000000 && (num1 % 2) == 0)
+		{
+			sum = sum + num1;
+		}
+		next = num1 + num2;
+		num1 = num2;
+		num2 = next;
 	}
-	printf("%.0f\n", totalsum);
+
+	printf("%lu\n", sum);
 
 	return (0);
 }
