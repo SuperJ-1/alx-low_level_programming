@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * cap_string - entry point
+ *
  * Desc: make all words of a string capital
  * @str: string to work on
- * Retun: the resulting string
+ * Return: the resulting string
  */
 char *cap_string(char *str)
 {
