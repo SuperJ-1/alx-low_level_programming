@@ -8,7 +8,7 @@
  */
 void print_buffer(char *b, int s)
 {
-	int bybe, i;
+	int byte, i;
 
 	for (byte = 0; byte < s; byte += 10)
 	{
