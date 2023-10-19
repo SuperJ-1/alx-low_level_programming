@@ -51,7 +51,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 	return (r + r_index + 1);
 }
 /**
- * infinite_add - entry point 
+ * infinite_add - entry point
  * Desc: adds two numbers
  * @n1: The first number
  * @n2: The second number

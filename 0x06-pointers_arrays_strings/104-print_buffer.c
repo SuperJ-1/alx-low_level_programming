@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_line - entry point
+ * print_buffer - entry point
  * Desc: prints a buffer
  * @b: the buffer we are going to print
  * @s: byte of buffer to print
