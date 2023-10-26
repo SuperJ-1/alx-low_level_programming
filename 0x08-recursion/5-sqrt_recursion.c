@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * _sqrt_recursion - prints the natural square root of a number
  * @n: the number to calculate its square root
  * Return: the result
  */
+int actual_sqrt_recursion(int n, int i);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
