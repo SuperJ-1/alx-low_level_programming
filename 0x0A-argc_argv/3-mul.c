@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 	number1 = atoi(argv[1]);
 	number2 = atoi(argv[2]);
-	product = num1 * num2;
+	product = number1 * number2;
 
 	printf("%d\n", product);
 	return (0);
